@@ -25,7 +25,8 @@ python src/main.py \
     --task classification \
     --key_metric accuracy \
     --lr_step 10,20,30,40 \
-    --lr_factor 0.6
+    --lr_factor 0.6 \
+    --seed 1337
 
 done
 done

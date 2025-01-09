@@ -1,8 +1,8 @@
-for lr in 0.002
+for lr in 0.002 0.001 0.0005 0.0001
 do
-for patch in 16
+for patch in 16 8 4 2 1
 do
-for stride in 16
+for stride in 16 8 4 2 1
 do
 
 python src/main.py \

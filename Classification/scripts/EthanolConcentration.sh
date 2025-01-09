@@ -15,4 +15,5 @@ python src/main.py \
     --d_model 768 \
     --pos_encoding learnable \
     --task classification \
-    --key_metric accuracy
+    --key_metric accuracy \
+    --seed 2021
